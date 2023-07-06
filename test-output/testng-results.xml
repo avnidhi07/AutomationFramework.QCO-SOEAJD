@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[open browser successfully]]>
+    </line>
+    <line>
+      <![CDATA[login successful]]>
+    </line>
+    <line>
+      <![CDATA[close succssefully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-06T16:35:47 IST" name="Suite" finished-at="2023-07-06T16:36:43 IST" duration-ms="55775">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T16:35:47 IST" name="Test" finished-at="2023-07-06T16:36:43 IST" duration-ms="55775">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:35:47 IST" name="setUp" finished-at="2023-07-06T16:36:34 IST" duration-ms="46083" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[open browser successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:36:34 IST" name="login" finished-at="2023-07-06T16:36:43 IST" duration-ms="9561" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:36:43 IST" name="tearDown" finished-at="2023-07-06T16:36:43 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close succssefully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
