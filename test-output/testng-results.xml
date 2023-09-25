@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T11:49:35 IST" name="Default suite" finished-at="2023-09-20T11:49:51 IST" duration-ms="15658">
+  <suite started-at="2023-09-25T13:06:17 IST" name="Suite" finished-at="2023-09-25T13:06:30 IST" duration-ms="13101">
     <groups>
       <group name="SmokeSuite">
-        <method signature="CreateOrgWithIndustryAndVendorTypeTest.createOrgWithIndustryAndVendorTypeTest()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" name="createOrgWithIndustryAndVendorTypeTest" class="vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest"/>
+        <method signature="CreateContactWithOrganizationTest.demo()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" name="demo" class="vtiger.ContactsTest.CreateContactWithOrganizationTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-09-20T11:49:35 IST" name="Default test" finished-at="2023-09-20T11:49:51 IST" duration-ms="15658">
-      <class name="vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:35 IST" name="bsConfig" finished-at="2023-09-20T11:49:35 IST" duration-ms="5" status="PASS">
+    <test started-at="2023-09-25T13:06:17 IST" name="Test" finished-at="2023-09-25T13:06:30 IST" duration-ms="13101">
+      <class name="vtiger.ContactsTest.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:17 IST" name="bsConfig" finished-at="2023-09-25T13:06:17 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:36 IST" name="launchingBrowser" finished-at="2023-09-20T11:49:38 IST" duration-ms="2664" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:17 IST" name="launchingBrowser" finished-at="2023-09-25T13:06:21 IST" duration-ms="3866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:38 IST" name="beforeMethod" finished-at="2023-09-20T11:49:40 IST" duration-ms="1542" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:21 IST" name="beforeMethod" finished-at="2023-09-25T13:06:24 IST" duration-ms="2959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createOrgWithIndustryAndVendorTypeTest()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:40 IST" name="createOrgWithIndustryAndVendorTypeTest" finished-at="2023-09-20T11:49:46 IST" duration-ms="6108" status="PASS">
+        <test-method signature="demo()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:24 IST" name="demo" finished-at="2023-09-25T13:06:24 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgWithIndustryAndVendorTypeTest -->
-        <test-method is-config="true" signature="logOutVtiger()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:46 IST" name="logOutVtiger" finished-at="2023-09-20T11:49:51 IST" duration-ms="5008" status="PASS">
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="logOutVtiger()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:24 IST" name="logOutVtiger" finished-at="2023-09-25T13:06:30 IST" duration-ms="5970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutVtiger -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:51 IST" name="closeBrowser" finished-at="2023-09-20T11:49:51 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:30 IST" name="closeBrowser" finished-at="2023-09-25T13:06:30 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:51 IST" name="asConfig" finished-at="2023-09-20T11:49:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactsTest.CreateContactWithOrganizationTest@3a93b025]" started-at="2023-09-25T13:06:30 IST" name="asConfig" finished-at="2023-09-25T13:06:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
-      </class> <!-- vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- vtiger.ContactsTest.CreateContactWithOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
