@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[open browser successfully]]>
-    </line>
-    <line>
-      <![CDATA[login successful]]>
-    </line>
-    <line>
-      <![CDATA[close succssefully]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-07-06T16:35:47 IST" name="Suite" finished-at="2023-07-06T16:36:43 IST" duration-ms="55775">
+  <suite started-at="2023-09-20T11:49:35 IST" name="Default suite" finished-at="2023-09-20T11:49:51 IST" duration-ms="15658">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateOrgWithIndustryAndVendorTypeTest.createOrgWithIndustryAndVendorTypeTest()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" name="createOrgWithIndustryAndVendorTypeTest" class="vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-07-06T16:35:47 IST" name="Test" finished-at="2023-07-06T16:36:43 IST" duration-ms="55775">
-      <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:35:47 IST" name="setUp" finished-at="2023-07-06T16:36:34 IST" duration-ms="46083" status="PASS">
+    <test started-at="2023-09-20T11:49:35 IST" name="Default test" finished-at="2023-09-20T11:49:51 IST" duration-ms="15658">
+      <class name="vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:35 IST" name="bsConfig" finished-at="2023-09-20T11:49:35 IST" duration-ms="5" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[open browser successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:36:34 IST" name="login" finished-at="2023-07-06T16:36:43 IST" duration-ms="9561" status="PASS">
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:36 IST" name="launchingBrowser" finished-at="2023-09-20T11:49:38 IST" duration-ms="2664" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[login successful]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@31304f14]" started-at="2023-07-06T16:36:43 IST" name="tearDown" finished-at="2023-07-06T16:36:43 IST" duration-ms="99" status="PASS">
+        </test-method> <!-- launchingBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:38 IST" name="beforeMethod" finished-at="2023-09-20T11:49:40 IST" duration-ms="1542" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[close succssefully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgWithIndustryAndVendorTypeTest()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:40 IST" name="createOrgWithIndustryAndVendorTypeTest" finished-at="2023-09-20T11:49:46 IST" duration-ms="6108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryAndVendorTypeTest -->
+        <test-method is-config="true" signature="logOutVtiger()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:46 IST" name="logOutVtiger" finished-at="2023-09-20T11:49:51 IST" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutVtiger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:51 IST" name="closeBrowser" finished-at="2023-09-20T11:49:51 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest@595b007d]" started-at="2023-09-20T11:49:51 IST" name="asConfig" finished-at="2023-09-20T11:49:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.OrganizationTest.CreateOrgWithIndustryAndVendorTypeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
